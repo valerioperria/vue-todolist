@@ -7,24 +7,18 @@ createApp({
             {
                 item: "",
             },
-
             newTodo: [],
-
             currentIndex: 0,
         }
     },
     methods: {
         addThing: function () {
-
             this.newTodo.push({ ...this.todo });
-
             this.todo.item = "";
         },
-        removeThing: function(position) {
-
+        removeThing: function (position) {
             this.newTodo.splice(position, 1);
         }
-
     }
 })
 

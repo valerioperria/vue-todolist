@@ -14,7 +14,9 @@
     padding: 2rem;
 }
 
-h1, .insert, .add {
+h1,
+.insert,
+.add {
     margin-bottom: 1rem;
 }
 
@@ -39,7 +41,7 @@ button {
 
 li {
     width: 20rem;
-    height: 2rem; 
+    height: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +51,7 @@ li {
 }
 
 .remove {
-   border-style: none;
-   width: auto;
-   height: auto;
+    border-style: none;
+    width: auto;
+    height: auto;
 }

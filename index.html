@@ -21,7 +21,8 @@
             <button class="add" @click="addThing">ADD</button>
 
             <ul>
-                <li v-for="(ntd, index) in newTodo">{{ ntd.item }}<button  class="remove" @click="removeThing(index)">X</button></li>
+                <li v-for="(ntd, index) in newTodo">{{ ntd.item }}<button class="remove"
+                        @click="removeThing(index)">X</button></li>
             </ul>
         </div>
     </div>
